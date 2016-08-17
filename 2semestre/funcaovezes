@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int vezes(int n, int m){
+ int i;
+ if(n == 0){
+ 	return 0;
+ 	}
+ else if(n == 1){
+ 	return m;
+ }
+ else{
+ m+vezes(n-1,m);
+ }
+}
+int main(void){
+    int n,m;
+    scanf("%d %d",&n,&m);
+    printf("Resultado de %d*%d é igual a %d",n,m,vezes(n,m));
+    
+}
