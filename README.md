@@ -1,1 +1,1 @@
-# Códigos feitos durante o período de aulas no SENAC.
+# Códigos feitos durante o período de aula no SENAC.
